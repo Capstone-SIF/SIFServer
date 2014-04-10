@@ -52,6 +52,6 @@ coverage.xml
 # Sphinx documentation
 docs/_build/
 
-# server output files
-CET-SIF/SIF_Server/
+# ignore output files
+*/outputFiles/
 

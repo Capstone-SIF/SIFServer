@@ -53,5 +53,7 @@ coverage.xml
 docs/_build/
 
 # ignore output files
-*/outputFiles/
+CET-SIF/SIF_Server/outputFiles/
+CET-SIF/SIF_Server/sockets/outputFiles/
+*.jpg
 

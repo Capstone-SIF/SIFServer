@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+    <Folder>
+        <name>Cloud Forecasts</name>
+    <!-- <description>Future solar insulation overlay</description> -->
+    <ScreenOverlay>
+        <visibility>1</visibility>
+        <Icon>
+          <href>http://cet.colorado.edu/~sif/Forecast/ForecastColorbar.png</href>
+        </Icon>
+        <drawOrder>0</drawOrder>
+        <color>ffffffff</color>
+        <overlayXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+        <screenXY x="0" y="1" xunits="fraction" yunits="fraction"/>
+    </ScreenOverlay>
+    <Folder>
+        <name>0 Minute Forecast</name>
+	    <Placemark>
+    	       <name>Sensor 1</name>
+	       <drawOrder>1</drawOrder>
+               <!-- <description></description> -->
+               <altitudeMode>relativeToGround</altitudeMode>
+               <extrude>1</extrude>
+	       <Point>
+      		  <coordinates>-105.2640917,40.0037861,0</coordinates>
+    	       </Point>
+            </Placemark>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.006881719</north>
+                    <south>40.000690481</south>
+                    <east>-105.262480464</east>
+                    <west>-105.265702936</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+	    <Placemark>
+    	       <name>Sensor 2</name>
+	       <drawOrder>1</drawOrder>
+               <!-- <description></description> -->
+               <altitudeMode>relativeToGround</altitudeMode>
+               <extrude>1</extrude>
+	       <Point>
+      		  <coordinates>-105.2640917,40.0127861,0</coordinates>
+    	       </Point>
+            </Placemark>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0158821272</north>
+                    <south>40.0096900728</south>
+                    <east>-105.262480464</east>
+                    <west>-105.265702936</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+	    <Placemark>
+    	       <name>Sensor 3</name>
+	       <drawOrder>1</drawOrder>
+               <!-- <description></description> -->
+               <altitudeMode>relativeToGround</altitudeMode>
+               <extrude>1</extrude>
+	       <Point>
+      		  <coordinates>-105.2640917,40.0177861,0</coordinates>
+    	       </Point>
+            </Placemark>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.020882354</north>
+                    <south>40.014689846</south>
+                    <east>-105.262480464</east>
+                    <west>-105.265702936</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>1 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0067718229</north>
+                    <south>40.0005805949</south>
+                    <east>-105.261660353</east>
+                    <west>-105.264882826</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0155563953</north>
+                    <south>40.0093643705</south>
+                    <east>-105.261427553</east>
+                    <west>-105.264650026</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0205060474</north>
+                    <south>40.0143135736</south>
+                    <east>-105.261450745</east>
+                    <west>-105.264673218</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>5 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0063322384</north>
+                    <south>40.0001410502</south>
+                    <east>-105.25837991</east>
+                    <west>-105.261602383</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0142534677</north>
+                    <south>40.0080615611</south>
+                    <east>-105.257215912</east>
+                    <west>-105.260438384</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0190008213</north>
+                    <south>40.012808484</south>
+                    <east>-105.257331872</east>
+                    <west>-105.260554345</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>10 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0057827578</north>
+                    <south>39.9995916195</south>
+                    <east>-105.254279357</east>
+                    <west>-105.257501829</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0126248082</north>
+                    <south>40.0064330494</south>
+                    <east>-105.251951359</east>
+                    <west>-105.255173832</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0171192885</north>
+                    <south>40.010927122</south>
+                    <east>-105.252183281</east>
+                    <west>-105.255405754</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>15 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0052332772</north>
+                    <south>39.9990421887</south>
+                    <east>-105.250178803</east>
+                    <west>-105.253401276</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0109961488</north>
+                    <south>40.0048045377</south>
+                    <east>-105.246686807</east>
+                    <west>-105.24990928</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0152377558</north>
+                    <south>40.00904576</south>
+                    <east>-105.24703469</east>
+                    <west>-105.250257162</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>30 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0035848354</north>
+                    <south>39.9973938963</south>
+                    <east>-105.237877143</east>
+                    <west>-105.241099616</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0061101705</north>
+                    <south>39.9999190025</south>
+                    <east>-105.230893151</east>
+                    <west>-105.234115623</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0095931577</north>
+                    <south>40.0034016739</south>
+                    <east>-105.231588916</east>
+                    <west>-105.234811389</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    <Folder>
+        <name>60 Minute Forecast</name>
+
+          <GroundOverlay>
+            <name>1</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_1_0628_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>40.0002879518</north>
+                    <south>39.9940973116</south>
+                    <east>-105.213273822</east>
+                    <west>-105.216496295</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>2</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_2_0757_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>39.996338214</north>
+                    <south>39.9901479319</south>
+                    <east>-105.199305838</east>
+                    <west>-105.202528311</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+
+          <GroundOverlay>
+            <name>3</name>
+            <color>91ffffff</color> <!-- This makes it transparent -->
+            <drawOrder>1</drawOrder>
+            <!-- <description></description> -->
+            <altitudeMode>relativeToGround</altitudeMode>
+            <extrude>1</extrude>
+            <!-- <altitude>20</altitude> -->
+            <Icon>
+                <href>http://cet.colorado.edu/~sif/Forecast/ForecastOutput/2_3_0748_forecast.jpg</href>
+            </Icon>
+                <LatLonBox>
+                    <north>39.9983039618</north>
+                    <south>39.9921135015</south>
+                    <east>-105.200697368</east>
+                    <west>-105.203919841</west>
+                <rotation>90</rotation>
+                </LatLonBox>
+          </GroundOverlay>
+      </Folder>
+    </Folder>
+</kml>

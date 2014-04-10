@@ -55,5 +55,7 @@ docs/_build/
 # ignore output files
 CET-SIF/SIF_Server/outputFiles/
 CET-SIF/SIF_Server/sockets/outputFiles/
+CET-Research/SIF_Processing/outputFiles/
+CET-Research/SIF_Processing/sockets/outputFiles/
 *.jpg
 

@@ -101,7 +101,8 @@ class kmlMaker:
       '''
 
       vectorFile = [f for f in os.listdir(vectorDir) if 'vectors' in f][0]
-      print vectorFile,forecastImageDir
+      print 'vectorFile: ', vectorFile
+      print 'forecastImageDir: ', forecastImageDir
       vectorFile = os.path.join(vectorDir, vectorFile)
       vectors = self._getVectors(vectorFile)
 
@@ -111,6 +112,7 @@ class kmlMaker:
       for p in imagePaths:
          name = os.path.basename(p)
          sensorID = name.split('_')[1]
+         print 'motionVec = ', vectors[ sensorID ]
          motionVec = vectors[ sensorID ]
 
          geotag = self.db.getCameraGeoTag( sensorID )

@@ -16,7 +16,10 @@ from makeKML import kmlMaker
 class matlab:
 	def __init__(self, debug=False):
 		self.debug = debug
-		mlabCmd = 'matlab -nodesktop -noFigureWindows' #  -nodisplay
+		if os.getlogin() is not 'timfurlong':
+			mlabCmd = 'matlab -nodesktop -noFigureWindows' #  -nodisplay
+		else:
+			mlabCmd = 'matlab -maci -nodesktop -noFigureWindows' #'-nojvm' -nodisplay
 		print '$ %s' % mlabCmd
 		self.child = pexpect.spawn( mlabCmd )
 		print '\nstarting MATLAB...'
@@ -44,7 +47,7 @@ class matlab:
 class MatlabHandler:
 
 	MIN_WAIT_TIME     = 5 # Seconds
-	MIN_NUM_PHOTOS    = 1
+	MIN_NUM_PHOTOS    = 2
 	QUEUE_CHECK_FREQ  = 2 # Hz (i.e. Number of checks per second)
 	PUBLIC_DIR        = os.path.join('/data/home/sif','public_html/Forecast')
 	PUBLICIMAGES_DIR  = os.path.join(PUBLIC_DIR, 'ForecastOutput')
@@ -165,7 +168,6 @@ class MatlabHandler:
 										if os.path.isfile( os.path.join(groupDir,f) ) ]
 			images         = [ f for f in files if f.endswith('.jpg') ]
 			num_images     = len(images)
-			#print 'num images: ', num_images
 
 			# Various checks to ensure the directory is ready for processing
 			if num_images < self.MIN_NUM_PHOTOS:

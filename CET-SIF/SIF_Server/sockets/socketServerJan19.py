@@ -89,8 +89,6 @@ class sockServer:
 			logging.info('Illegal message recieved with signature:\n%s' % lines[0])
 			return # ignore this message
 		lines[0] = ''.join( lines[0].split('%s\n' % imageName)[1:] )
-		#print "imageName: ", imageName
-		logging.info(imageName)
 		cameraID, timeTaken, lat, lon, powerData = tuple( imageName.split('_') )
 		groupID = self.numReceived%2
 		self.numReceived += 1

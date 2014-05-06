@@ -6,7 +6,7 @@ im_out = imcomplement(im_out);
 im_out = rgb2gray(im_out);
 % Create and save the colormap to outfile
 f = figure('visible','off','PaperPositionMode','auto');
-imshow(im_out, 'Border','tight');
+%imshow(im_out, 'Border','tight');
 map = (900/1024).*jet;
 colormap(map);
 saveas(f,outfile,'jpg');

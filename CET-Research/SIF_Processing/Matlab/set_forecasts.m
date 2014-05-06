@@ -17,7 +17,7 @@ function set_forecasts(inputImgDir, forecastDir, lightIntensity)
         ttl = sprintf('%s_forecast.jpg', filename);
         ttl = strcat(forecastDir,ttl);
         % Create and save forecast map
-        Solar_Intensity(inputImg, ttl, lightIntensity);
+        forecastor(inputImg, ttl, lightIntensity);
         
     end
 

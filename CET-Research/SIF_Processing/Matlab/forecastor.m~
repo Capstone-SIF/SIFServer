@@ -1,0 +1,90 @@
+function forecastor(imgFile, outfile, lightIntensity)
+	% TODO: incorporate dt and measured lightIntensity into algorithm
+	% and save the color bar as separate image
+%------------------------Cache Money code---------------------    
+    %img = imread(imgFile);
+    %% Take the complement of the image
+    %img = imcomplement(img);
+    %% Convert to gray
+    %img = rgb2gray(img);   
+    %% Create and save the colormap
+    %f = figure('visible','off','PaperPositionMode','auto');
+    %imshow(img, 'Border','tight');
+    %map = (lightIntensity/1024).*jet;
+    %colormap(map);
+    %saveas(f,outfile,'jpg');
+%--------------------------------------------------------------
+%---------------------Honeybadgers code------------------------
+im = imread(imgFile);
+[width, height, depth] = size(im);
+A = [width,height,0];
+
+for x = 1 : width;
+    for y = 1: height;
+        r = im(x,y,1);
+        g = im(x,y,2);
+        bl = im(x,y,3);
+        
+        r = double(r);
+        g = double(g);
+        bl = double(bl);
+        num = ((r + g)/2)^2+((3*g-r)/2)^2;
+        den = num + bl^2;
+        angle = sqrt(num/den);
+        transmissivity = angle/0.9553;
+        %A(width, height) = transmissivity;
+        A(x,y) = transmissivity;
+    end
+end
+
+imwrite(A,'img','jpg','Comment','My JPEG file')
+img = grs2rgb('img.jpg');
+imwrite(res,'newImage3.jpg','jpg','Comment','My JPEG file')
+
+img = imread('newImage3.jpg');
+% Take the complement of the image
+img = imcomplement(img);
+% Convert to gray
+img = rgb2gray(img);
+% Create and save the colormap to outfile
+f = figure('visible','off','PaperPositionMode','auto');
+imshow(img, 'Border','tight');
+map = (900/1024).*jet;
+colormap(map);
+saveas(f,'invertedimage','jpg');
+
+img = imread('invertedimage.jpg');
+% Take the complement of the image
+img = imcomplement(img);
+ Convert to gray
+img = rgb2gray(img);
+% Create and save the colormap to outfile
+f = figure('visible','off','PaperPositionMode','auto');
+imshow(img, 'Border','tight');
+map = (900/1024).*jet;
+colormap(map);
+saveas(f,'invertedimage2','jpg');
+
+img = imread('invertedimage2.jpg');
+% Take the complement of the image
+img = imcomplement(img);
+% Convert to gray
+img = rgb2gray(img);
+% Create and save the colormap to outfile
+f = figure('visible','off','PaperPositionMode','auto');
+imshow(img, 'Border','tight');
+map = (900/1024).*jet;
+colormap(map);
+saveas(f,outfile,'jpg');
+
+r = double(r);
+g = double(g);
+bl = double(bl);
+num = ((r + g)/2)^2+((3*g-r)/2)^2;
+den = num + bl^2;
+angle = sqrt(num/den);
+transmissivity = angle/0.9553;
+
+%--------------------------------------------------------------
+    
+end
